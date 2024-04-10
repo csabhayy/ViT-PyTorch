@@ -2,6 +2,8 @@
 This is an unofficial implementation of ViT that was introduced in the paper [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://arxiv.org/abs/2010.11929).
 Implementation has been tested using the [MNIST Dataset](https://www.kaggle.com/competitions/digit-recognizer) for image classification task.
 
+![ViT Diagram](Transformer.png)
+
 ### ViT Implementation
 We need two classes to implement ViT. First is the `PatchEmbedding` to process the image and embeddings until we feed the transformer encoder. Second is the `ViT` for the rest of the process.
 
